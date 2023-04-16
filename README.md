@@ -41,9 +41,9 @@ Para enviar para main especifica digite
 ````ruby
 git push origin nome 
 ````
-Para visualizar as branchs disponíveis e junta-las:
+Estamos trabalhando com duas branches: a branch main e a branch title. Fizemos várias alterações na branch title, mas, agora, queremos trazer tudo o que está na title para a main. Como podemos fazer isso?
 ````ruby
-git branch
-git merge nomedaalterada
+ggit switch main
+git merge title
 git push origin nome
 ````
